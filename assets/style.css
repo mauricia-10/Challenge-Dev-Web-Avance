@@ -42,10 +42,10 @@ label {
 
 input {
   padding: 0.3rem;
-  padding-left: 0.3rem;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-left: 0.6rem;
-  width: 10rem;
+  width: 15rem;
+  height: 1.5rem;
 }
 
 button {
