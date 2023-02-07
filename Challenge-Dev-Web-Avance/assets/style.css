@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1.5em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input {
+  padding: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 10px;
+  padding-left: 0.6rem;
+  width: 10rem;
+}
+
+button {
+  padding: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 10px;
+  background-color: #f76c6c;
+  border-color: #f76c6c;
+  color: #f4f4f4;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 15rem;
+}
+
+.member-item {
+  padding: 0.25em 0;
+  background-color: #f76c6c;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
