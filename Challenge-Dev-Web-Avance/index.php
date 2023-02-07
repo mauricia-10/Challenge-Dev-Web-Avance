@@ -1,9 +1,6 @@
 <?php 
 
-// Connexion BDD
-$dsn = 'mysql:host=localhost;port=3306;dbname=challenge_dev_avance;charset=utf8mb4';
-$user = 'root';
-$password = 'mauricia';
+require_once 'db.php';
 
 try{
     $pdo = new PDO($dsn, $user, $password, [
